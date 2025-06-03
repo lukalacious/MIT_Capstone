@@ -20,9 +20,6 @@ by using smart recommendation systems that can recommend songs based on users’
 Objective
 Build a recommendation system to propose the top 10 songs for a user based on the likelihood of
 listening to those songs.
-This file is meant for personal use by lukejrobertsza@gmail.com only.
-Proprietary content. © Great Learning. All Rights Reserved. Unauthorized use or distribution prohibited. 1
-Sharing or publishing the contents in part or full is liable for legal action.
 Data Dictionary
 The core dataset is the Taste Profile Subset released by The Echo Nest as part of the Million Song
 Dataset. There are two files in this dataset. One contains the details about the song id, titles, release,
@@ -39,6 +36,3 @@ count_data
 lukejrobertsza@gmail.com 0DB6CRP1W2
 ● song_id: A unique id given to the song
 ● play_count: Number of times the song was played
-This file is meant for personal use by lukejrobertsza@gmail.com only.
-Proprietary content. © Great Learning. All Rights Reserved. Unauthorized use or distribution prohibited. 2
-Sharing or publishing the contents in part or full is liable for legal action.
