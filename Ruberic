@@ -1,0 +1,26 @@
+Rubric
+Criteria
+Problem Definition
+- The context - Why is this problem important to solve? - The objectives - What is the intended goal? - The key questions - What are the key questions that need to be answered? - The problem formulation - What is that we are trying to solve using data science? - Insights coming out from the statistics of the data - Unique users, songs, artists - Year wise songs listened - Song that has been played most - Max number of songs played in a year - Other univariate and bivariate analysis
+Points
+4
+Criteria
+Data Exploration
+- Data Description - What is the background of this data? What does it contain? - Explanation of what is this data about? - Provided a data summary - Observations & Insights - What are some key patterns in the data? - What does it mean for the problem formulation? Are there any data treatments or pre-processing required?
+Points
+4
+Criteria
+Building various models
+Building various models and tuning the model to get better validation 1) Following techniques are bare minimum to be used i) Popularity based ii) Collaborative based ( User-User and Item -item) iii) Matrix factorization System iv) Content Based Recommendation System 2) Improve model performance by using techniques like - GridSearchCV. 3) Why the techniques suggested are the best to explore for the data and problem at hand? Any other technique used is beyond expectations
+Points
+4
+Criteria
+Comparison of various techniques and their relative performance
+Measures of success - What are the key measures of success? - What are all the important metrics to consider? And why? - What is the performance of different techniques? How do different techniques perform? - Which technique is performing better? And why? - Is there a scope to improve the performance of the techniques further?
+Points
+4
+Criteria
+Proposal for the final solution design
+- What model do you propose to be adopted? - Why is this the best solution to adopt? - How that solves the problem? - Is the model performance good enough for deployment in production and is it interpretable?
+Points
+4
