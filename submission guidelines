@@ -1,0 +1,60 @@
+Dear @channel,
+
+I hope you are doing well.
+
+Following are the key differences between the Milestone, Capstone and Live Presentation:
+
+Milestone Submission: (Deadline 9th June)
+
+Focus:
+
+Initial Exploration: This stage is about initial data exploration and understanding patterns within the data.
+Initial Insights: Extracting early insights from univariate, bivariate analyses, or unsupervised learning methods like clustering.
+Modeling Techniques: Test various modeling techniques and assess their performances.
+Implementation Feasibility: Evaluating potential challenges, benefits, and outcomes of different solutions.
+
+Submission Should Include:
+
+Exploration of data using techniques learned so far.
+Key insights from the data relevant to solving the problem.
+Results from initial predictive models and their performance comparisons.
+Well-informed perspective on effective final modeling techniques.
+
+
+Final Submission: (16th June)
+
+Focus:
+
+Key Takeaways: Summarizing findings from the Milestone phase.
+Refined Model: Presenting and justifying the final proposed model.
+Implementation Recommendations: Providing actionable insights, expected benefits, and addressing potential challenges.
+
+Submission Should Include:
+
+Executive Summary: Highlight the most significant findings and the final model specifications.
+Problem and Solution Summary: Recap the problem, explain the reasoning behind the proposed solution, and discuss its business impact.
+Implementation Recommendations: Key actionable items for stakeholders, benefits and costs analysis, risks or challenges, and further analysis required.
+
+Live Presentation Slide Deck: (Deadline : 16th June)
+
+Recommended to include:
+
+Title Slide
+Project Introduction
+Problem Statement & Objectives
+Data Overview
+Exploratory Data Analysis
+Data Pre-Processing
+Modeling Techniques
+Model Comparison
+Final Model Proposal
+Implementation Recommendations
+Conclusion
+
+Live Presentation (On either 21st/22nd June)
+
+Each learner will be allocated a 15-minute slot for their live presentation with an evaluator. The session will be a one-on-one session scheduled on Zoom and the session structure is as follows:
+
+Initial 8-9 Minutes: The learner will present their slides.
+Next 5 Minutes: Q&A session with the evaluator.
+Final Minute: Feedback sharing.
