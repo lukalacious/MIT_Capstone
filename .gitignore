@@ -1,0 +1,7 @@
+*.csv
+*.pkl
+*.html
+.DS_Store
+*.code-workspace
+__pycache__/
+.ipynb_checkpoints/
