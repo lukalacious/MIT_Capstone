@@ -110,6 +110,10 @@ MIT_Capstone/
 
 This project was completed as the capstone for the **MIT Applied Data Science Program (ADSP)**. It demonstrates end-to-end data science workflow: problem framing, EDA, feature engineering, model building, hyperparameter tuning, and evaluation across multiple recommendation paradigms.
 
+## Other Projects
+
+- [Twitch — Bird Submission Tracker](https://bird-submissions.vercel.app) | [GitHub](https://github.com/lukalacious/bird_submissions) — A full-stack Next.js app for tracking bird sightings, built with React 19, Prisma, Neon PostgreSQL, and Google OAuth.
+
 ## License
 
 [MIT](LICENSE)
