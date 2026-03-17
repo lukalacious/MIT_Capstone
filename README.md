@@ -21,6 +21,11 @@ The [Million Song Dataset](http://millionsongdataset.com/) — a freely availabl
 
 **Scale:** 2M user-song interactions across 76K+ users and 9.9K+ unique songs (after filtering).
 
+<p align="center">
+  <img src="images/eda_user_behavior.png" alt="User Behavior: Unique Songs vs Total Play Count" width="700">
+  <br><em>Exploratory analysis of user listening behavior — diversity vs. intensity</em>
+</p>
+
 ## Approach
 
 Five recommendation strategies were implemented and compared:
@@ -28,11 +33,21 @@ Five recommendation strategies were implemented and compared:
 ### 1. Popularity-Based (Baseline)
 Ranks songs by average play count and listening frequency. Simple but effective as a benchmark.
 
+<p align="center">
+  <img src="images/top10_popularity.png" alt="Top 10 Songs by Total Streams" width="600">
+  <br><em>Top 10 most-streamed songs — bubble size reflects total play count</em>
+</p>
+
 ### 2. User-User Collaborative Filtering (KNN)
 Finds similar users based on listening patterns and recommends songs enjoyed by those neighbors.
 
 ### 3. Item-Item Collaborative Filtering (KNN)
 Identifies similar songs based on co-listening patterns and recommends items similar to what the user already enjoys.
+
+<p align="center">
+  <img src="images/cf_recommendations.png" alt="Collaborative Filtering Recommendations" width="700">
+  <br><em>User-User KNN recommendations overlaid on listening heatmap — pink bubbles are predicted songs</em>
+</p>
 
 ### 4. Matrix Factorization (SVD / SVD++)
 Decomposes the user-item interaction matrix into latent factors, capturing hidden patterns in listening behavior. SVD++ additionally incorporates implicit feedback signals.
@@ -41,6 +56,11 @@ Decomposes the user-item interaction matrix into latent factors, capturing hidde
 Uses song metadata (title, artist, album, year) to build TF-IDF feature vectors and recommends songs with high cosine similarity to the user's profile.
 
 A **K-Means clustering** approach was also explored to group users by behavior and recommend within clusters (best silhouette score: 0.925).
+
+<p align="center">
+  <img src="images/cluster_recommendations.png" alt="Cluster-based Recommendations" width="700">
+  <br><em>KMeans cluster-based recommendations — songs popular within the user's behavioral cluster</em>
+</p>
 
 ## Results
 
@@ -80,6 +100,7 @@ Open `Music_Recommendation_System.ipynb` in Jupyter Notebook or JupyterLab and r
 ```
 MIT_Capstone/
 ├── Music_Recommendation_System.ipynb   # Full analysis and modeling notebook
+├── images/                             # Visualizations for README
 ├── README.md
 ├── LICENSE
 └── .gitignore
